@@ -1,0 +1,67 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+@font-face {
+  font-family: "Inter-VariableFont_slnt,wght";
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter-VariableFont_slnt,wght";
+}
+
+main {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 15px;
+  text-align: center;
+  margin: 60px auto;
+  width: 70%;
+  max-width: 300px;
+  padding: 40px 40px;
+  color: #fff;
+}
+img {
+  width: 90px;
+  border-radius: 500px;
+}
+
+.place {
+  color: hsl(75, 94%, 57%);
+}
+
+.title {
+  color: hsl(0, 0%, 60%)
+}
+
+a {  width: 100%;
+  margin-top: 15px;
+  padding: 15px 0px;
+  display: block;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+  color:#fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.links a:hover {
+  background-color:hsl(75, 94%, 57%);
+  color:hsl(0, 0%, 20%);
+}
+
+@media screen and (max-width: 376px) {
+
+  main {
+    width: 80%;
+    padding: 20px 20px;
+  }
+}
+
+
